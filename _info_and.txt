@@ -1,0 +1,26 @@
+
+
+Para a execução são necessários os arquivos:
+
+svo_safety.exe         <-- executável do SVO Safety
+embarcacoes.txt        <-- dados das embarcações
+estagios.txt           <-- dados os estágios do veículo
+plot_mapa.txt	       <-- dados para a plotagem do mapa
+vizu_plot.txt          <-- informacao de posicao do observador (latitude/longitude) e alcance 
+trajetorias.txt        <-- dados das trajetórias
+trajetoria_ativa.txt   <-- armazena o indice da trajetória ativa
+hora_lancamento.txt    <-- hora do lançamento
+
+relatorio_todas_traj.txt     <-- relatório gerado pelo botao "Relatório Todas as Trajetórias"
+relatorio.txt                <-- relatório gerado pelo botao "Relatório Trajetória Ativa"
+
+
+-------------------------------------------------------------------------------------
+
+para os testes.
+
+files_texto_exemplo_01.rar   <-- usar a H0 para 01:30  (o PI dos estagios estao afastados do brasil)
+files_texto_exemplo_02.rar   <-- usar a H0 para 20:00  (obs: a area do 1o estagio é muito pequena)
+files_FTI.rar                <-- usar a H0 para 20:00
+files_FTB.rar                <-- usar a H0 para 20:00
+-------------------------------------------------------------------------------------

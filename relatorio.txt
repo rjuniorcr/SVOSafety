@@ -1,0 +1,17 @@
+SBAT70                    Natal XLII                   
+
+24/02/2022    
+
+
+Trajetória_1/AZ110 EL56          
+
+ Estágio   Embarcação        Long       Lat       Probab.de Impacto           Risco de Vida
+
+
+Probabilidade Total de Impacto = 0
+
+Risco da Operação              = 0
+
+**********************************
+Lançamento: GO
+**********************************

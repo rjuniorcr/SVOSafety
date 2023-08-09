@@ -1,0 +1,8 @@
+object Form17: TForm17
+  Left = 433
+  Height = 240
+  Top = 380
+  Width = 815
+  Caption = 'Adição de Ponto de Área de Interdição'
+  LCLVersion = '2.0.10.0'
+end

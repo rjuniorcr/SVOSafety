@@ -1,0 +1,74 @@
+object Form5: TForm5
+  Left = 3200
+  Height = 206
+  Top = 127
+  Width = 571
+  Caption = 'Exclusão de Embarcação'
+  ClientHeight = 206
+  ClientWidth = 571
+  KeyPreview = True
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 25
+    Top = 48
+    Width = 341
+    Caption = 'Selecione a Embarcação a ser excluída:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object ComboBox1: TComboBox
+    Left = 392
+    Height = 23
+    Top = 48
+    Width = 100
+    ItemHeight = 15
+    Style = csDropDownList
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 160
+    Height = 56
+    Top = 120
+    Width = 120
+    Caption = 'Excluir'
+    Default = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 312
+    Height = 56
+    Top = 120
+    Width = 120
+    Caption = 'Cancelar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+end

@@ -1,0 +1,79 @@
+object Form12: TForm12
+  Left = 500
+  Height = 240
+  Top = 233
+  Width = 507
+  Caption = 'Adicionar Trajetória'
+  ClientHeight = 240
+  ClientWidth = 507
+  KeyPreview = True
+  OnKeyPress = FormKeyPress
+  LCLVersion = '2.0.10.0'
+  object Label1: TLabel
+    Left = 40
+    Height = 25
+    Top = 64
+    Width = 208
+    Caption = 'Descrição da Trajetória:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 264
+    Height = 33
+    Top = 56
+    Width = 152
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxLength = 19
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 72
+    Top = 136
+    Width = 200
+    Caption = 'Adicionar'
+    Default = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 73
+    Top = 136
+    Width = 200
+    Caption = 'Cancelar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+end

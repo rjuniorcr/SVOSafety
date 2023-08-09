@@ -1,0 +1,90 @@
+
+
+
+1.
+entrar no www.github.com/
+
+user: andrepenha01
+senha: _Ed1e2gfb$
+email: andrepenha@gmail.com
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+VIA SSH
+********
+
+para funcionar tem que dar o comando para ativacao do cliente ssh
+
+$ eval "$(ssh-agent -s)"
+
+depois adicionar o ssh key para esse cliente (apontar para a pasta onde estao as chaves)
+
+$ ssh-add  /c/programas/git/chaves/ssh/id_ed25519
+
+
+ai , para clocar só dar o comando:
+
+$ git clone git@github.com:andrepenha01/SVO_Safety.git
+----------------------------------------------------------------------------------------------------------------
+
+
+2.
+acessar o repositorio a atualizar
+no lado esquerdo
+
+3.
+clicar no botao verde "clone or download"
+copiar o link (clicar na plancheta)
+exemplo: https://github.com/andrepenha01/SVO_Safety.git
+
+4.
+
+criar uma pasta qualquer com os arquivos atualizados
+exemplo:
+c:\temp\soft_atualizacao
+
+5. abrir o programa Git Bash
+
+6. a partir do prompt do git bash acessar a pasta criada
+$ cd /c/temp/soft_atualizacao
+
+7. nesse ponto clonar o repositorio remoto aqui com o comando:
+
+$ git clone https://github.com/andrepenha01/SVO_Safety.git
+
+obs:
+no exemplo, o "https://github.com/andrepenha01/SVO_Safety.git" é o link copiado do item "3."
+
+6. com isso nessa sub-pasta vai ser criada uma pasta com  o nome do repositorio:
+
+c:\temp\soft_atualizacao\SisCAO   <-- no caso do exemplo
+
+
+7. nessa pasta, fazer todas a atualizações necessárias.
+
+8. apos concluir as atualizações, acessar no prompt do git bash a pasta do repositorio local:
+
+cd /c/temp/soft_atualizacao/SisCAO/
+
+9. para visualizar o que foi modificado (o que tem de diferente entre o respositorio remoto e o local) aplicar o comando:
+$ git status
+
+
+10. para sincronizar o repositorio local com o repositorio remoto aplicar os comandos:
+
+$git add.      <-- para adicionar na fila as mudanças 
+
+$ git commit -m "atualizacao 06_02_2020"   <-- para nomear o pacote de modificações corrente
+
+
+$ git push origin master    <-- envia efetivamente as alterações para atualizar o repositorio remoto
+
+
+11.
+depois disso, pode fechar o git bash
+e deletar a pasta c:\temp\soft_atualizacao\
+
+
